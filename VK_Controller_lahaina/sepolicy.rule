@@ -1,0 +1,10 @@
+allow platform_app migt_file dir search
+allow platform_app migt_file file {open read getattr}
+allow vendor_hal_perf_default system_server dir search
+allow vendor_hal_perf_default system_server file {open read getattr}
+allow vendor_hal_perf_default miuibooster dir search
+allow vendor_hal_perf_default vendor_hal_perf_default capability dac_override
+allow vendor_hal_perf_default miuibooster file {open read getattr}
+allow vendor_init migt_dev chr_file {open read getattr}
+allow surfaceflinger migt_file dir search
+allow surfaceflinger migt_file file {open read getattr}

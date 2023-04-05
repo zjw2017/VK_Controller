@@ -1,0 +1,5 @@
+id=VKFEATURES_CONTROLLER
+name=电视机の遥控器
+author=电视
+description=为你的只因开启专有特性
+updateJson=https://ghproxy.com/https://github.com/zjw2017/VK_Controller_lahaina/blob/main/update.json
