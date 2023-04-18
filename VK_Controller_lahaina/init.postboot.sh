@@ -8,8 +8,9 @@ echo "80 2112000:95" >/sys/devices/system/cpu/cpufreq/policy4/schedutil/target_l
 
 echo "80 2380800:95" >/sys/devices/system/cpu/cpufreq/policy7/schedutil/target_loads
 
-echo 5 >/sys/devices/system/cpu/cpufreq/policy0/schedutil/report_policy
-echo 5 >/sys/devices/system/cpu/cpufreq/policy7/schedutil/report_policy
+echo 1 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/pmu_limit_enable
+echo 1 > /sys/devices/system/cpu/cpufreq/policy4/schedutil/pmu_limit_enable
+echo 1 > /sys/devices/system/cpu/cpufreq/policy7/schedutil/pmu_limit_enable
 
 chown -h system.system /sys/devices/system/cpu/cpufreq/policy0/schedutil/target_loads
 chown -h system.system /sys/devices/system/cpu/cpufreq/policy4/schedutil/target_loads
