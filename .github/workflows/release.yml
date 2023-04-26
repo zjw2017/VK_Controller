@@ -13,7 +13,7 @@ jobs:
         run: |
           echo "version=$(jq .version $GITHUB_WORKSPACE/update.json)" >> $GITHUB_ENV
           echo "versionCode=$(jq .versionCode $GITHUB_WORKSPACE/update.json)" >> $GITHUB_ENV
-          echo "ModuleFolderName=VK_Controller_lahaina" >> $GITHUB_ENV
+          echo "ModuleFolderName=VK_Controller" >> $GITHUB_ENV
       - name: 2. 制作模块
         run: |
           mkdir -p "$GITHUB_WORKSPACE"/GithubRelease
