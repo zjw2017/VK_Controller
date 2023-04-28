@@ -6,7 +6,7 @@
 - 新增 调频器 sched_pixel，并设为默认调频器
 - 调整 CPU 部分参数
 - 引入 自定义配置文件，为PMU Limiter提供更多选择。配置位于/storage/emulated/0/Android/VK_Controller
-    - normal.conf：**非专业人士请不要修改**
+    - normal.conf：**非专业人士请不要修改，刷入时会将原配置备份为normal.conf.bak。若你进行了修改，请自行同步过去**
     - custom.conf ：**单应用加速配置，请仔细阅读说明进行配置**
 - 屏蔽 小米和高通boost
 - 修改 日志存放位置，日志位于/cache/init.log及/cache/running.log，**反馈请带上这两个文件**
