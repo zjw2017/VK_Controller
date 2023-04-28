@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.76 (6) (2023-04-28)
+- **限制 适用版本：最低 build504 或 23.4.21**
+- 使用 cpp 重写模块
+- 新增 调频器 sched_pixel，并设为默认调频器
+- 调整 CPU 部分参数
+- 引入 自定义配置文件，为PMU Limiter提供更多选择。配置位于/storage/emulated/0/Android/VK_Controller
+    - normal.conf：**非专业人士请不要修改**
+    - custom.conf ：**单应用加速配置，请仔细阅读说明进行配置**
+- 屏蔽 小米和高通boost
+- 修改 日志存放位置，日志位于/cache/init.log及/cache/running.log，**反馈请带上这两个文件**
+- 完善 卸载脚本
+
 ### v1.75 (5) (2023-04-05)
 
 - 启用链接时优化
