@@ -29,12 +29,12 @@ echo "# #开头即表明该行无效，请添加配置时仔细阅读相关说�
 
 # 小核配置
 limit_freq_lp 1305600
-lcpi_threshold_lp 3
+lcpi_threshold_lp 2
 spc_threshold_lp 44
 
 # 大核配置
-limit_freq_hp 1881600
-lcpi_threshold_hp 4
+limit_freq_hp 1555200
+lcpi_threshold_hp 3
 spc_threshold_hp 25
 
 # 超大核配置
